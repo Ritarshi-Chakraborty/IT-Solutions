@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- HEADER starts -->
+        <header class="sticky-top bg-white">
+            <nav class="container d-flex justify-content-between align-items-center py-2">
+                <a href="#" title="logo"><img src="/assets/default-logo.png" alt="Logo" height="40" width="80"></a>
+                <i class="hamburger fa-solid fa-bars p-2 rounded-1"></i>
+                <ul class="position-absolute py-4 text-center">
+                    <i class="fa-solid fa-xmark"></i>
+                    <li class="pb-4"><a href="#" title="home">Home</a></li>
+                    <li class="pb-4"><a href="#services-section" title="services">Services</a></li>
+                    <li class="pb-4"><a href="#about-section" title="about">About</a></li>
+                    <li class="pb-4"><a href="#portfolio" title="portfolio">Portfolio</a></li>
+                    <li class="pb-4"><a href="#stats-section" title="statistics">Statistics</a></li>
+                    <li class="pb-4"><a href="#contact-section" title="contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER ends -->
+
+        <!-- HOME section starts -->
+        <section id="home" class="container my-5 d-flex justify-content-evenly position-relative">
+            <div class="content align-content-center position-relative">
+                <h1>IT Solutions</h1>
+                <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam soluta libero explicabo exercitationem a illo atque, ullam ipsum sunt, cumque nam tenetur quas consequuntur repudiandae illum rerum sit saepe mollitia!</p>
+                <a href="#" title="learn-more" class="text-decoration-none px-4 py-2 d-block">Learn More</a>
+            </div>
+            <div class="home-img position-relative m-5"></div>
+        </section>
+        <!-- HOME section ends -->
+
+        <!-- SERVICES section starts -->
+        <section id="services-section" class="position-relative">
+            <div class="container position-relative">
+                <div class="service-img"></div>
+                <div class="services position-absolute d-flex flex-wrap justify-content-between row-gap-4">
+                    <div class="service d-flex flex-column justify-content-evenly">
+                        <h5 class="fs-3">Pixel Perfect</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, asperiores beatae! Nihil architecto obcaecati labore? </p>
+                    </div>
+                    <div class="service d-flex flex-column justify-content-evenly">
+                        <h5 class="fs-3">Web Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, asperiores beatae! Nihil architecto obcaecati labore? </p>
+                    </div>
+                    <div class="service d-flex flex-column justify-content-evenly">
+                        <h5 class="fs-3">Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, asperiores beatae! Nihil architecto obcaecati labore? </p>
+                    </div>
+                    <div class="service d-flex flex-column justify-content-evenly">
+                        <h5 class="fs-3">Branding</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, asperiores beatae! Nihil architecto obcaecati labore? </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SERVICES section ends -->
+
+        <!-- INFO section starts -->
+        <section id="info-section" class="py-5">
+            <div class="container position-relative py-5">
+                <div class="info-image position-absolute"></div>
+                <h2 class="position-relative">We've been working with some awesome teams around the world.</h2>
+            </div>
+        </section>
+        <!-- INFO section ends -->
+
+        <!-- ABOUT section starts -->
+        <section id="about-section" class="position-relative">
+            <div class="container d-flex flex-wrap column-gap-5 row-gap-4">
+                <div class="feature d-flex gap-5 p-3 position-relative">
+                    <div class="icon position-relative">
+                        <img src="/assets/svg-image-4.svg" alt="icon" height="40" width="40">
+                    </div>
+                    <div class="desc">
+                        <h5 class="fw-bold fs-3">Sample headline</h5>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum tempora aspernatur obcaecati blanditiis! Pariatur.</p>
+                    </div>
+                </div>
+                <div class="feature d-flex gap-5 p-3 position-relative">
+                    <div class="icon position-relative">
+                        <img src="/assets/svg-image-6.svg" alt="icon" height="40" width="40">
+                    </div>
+                    <div class="desc">
+                        <h5 class="fw-bold fs-3">Sample headline</h5>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum tempora aspernatur obcaecati blanditiis! Pariatur.</p>
+                    </div>
+                </div>
+                <div class="feature d-flex gap-5 p-3 position-relative">
+                    <div class="icon position-relative">
+                        <img src="/assets/svg-image-8.svg" alt="icon" height="40" width="40">
+                    </div>
+                    <div class="desc">
+                        <h5 class="fw-bold fs-3">Sample headline</h5>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum tempora aspernatur obcaecati blanditiis! Pariatur.</p>
+                    </div>
+                </div>
+                <div class="feature d-flex gap-5 p-3 position-relative">
+                    <div class="icon position-relative">
+                        <img src="/assets/svg-image-10.svg" alt="icon" height="40" width="40">
+                    </div>
+                    <div class="desc">
+                        <h5 class="fw-bold fs-3">Sample headline</h5>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum tempora aspernatur obcaecati blanditiis! Pariatur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT section ends -->
+
+        <!-- PORTFOLIO section starts -->
+        <section id="portfolio" class="container my-4 position-relative d-flex">
+            <div class="card-section d-flex flex-wrap justify-content-between row-gap-4">
+                <div class="portfolio-card"></div>
+                <div class="portfolio-card"></div>
+                <div class="portfolio-card"></div>
+                <div class="portfolio-card"></div>
+                <div class="portfolio-card"></div>
+                <div class="portfolio-card"></div>
+            </div>
+            <div class="content px-5">
+                <p class="pb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident ratione numquam iure? Inventore vero ratione sit, sequi facilis officia repellendus doloremque, fuga rem dolorum, velit aliquid autem. Rerum, eius adipisci, impedit nisi ad quisquam totam obcaecati dignissimos iste quam assumenda exercitationem. Delectus eius animi accusamus error nostrum molestiae itaque in.</p>
+                <a href="#" title="learn-more" class="text-decoration-none px-4 py-2 d-block">Learn More</a>
+            </div>
+            <h2 class="position-absolute">Branding and Digital Agency</h2>
+        </section>
+        <!-- PORTFOLIO section ends -->
+
+        <!-- STATS section starts -->
+        <section id="stats-section" class="container py-5 d-flex position-relative justify-content-between">
+            <div class="stats-img m-5 position-relative"></div>
+            <div class="content">
+                <h3 class="fs-1">Stylish Sun Hats</h3>
+                <p class="py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet deserunt libero sint eos aliquam cumque ipsa dicta doloremque porro amet quaerat impedit rem maiores rerum cupiditate pariatur placeat modi veritatis asperiores ut, officia nobis ipsum, blanditiis ex. Quaerat, nulla quam?</p>
+                <a href="#" title="learn-more" class="text-decoration-none px-4 py-2 d-block">Learn More</a>
+            </div>
+        </section>
+        <!-- STATS section ends -->
+
+        <!-- CONTACT section starts -->
+        <section id="contact-section">
+            <div class="container position-relative">
+            <div class="contact-form p-4 position-absolute">
+                <h2 class="fs-2 text-center text-uppercase pb-2">Contact Us</h2>
+                <form class="d-flex flex-column row-gap-4 py-4">
+                    <input class="py-1" type="text" placeholder="Enter your Name">
+                    <input class="py-1" type="text" placeholder="Enter a valid email address">
+                    <textarea class="py-1" name="" id="" placeholder="Enter your message"></textarea>
+                    <button type="submit" class="text-uppercase">Submit</button>
+                </form>
+            </div>
+            <div class="contact-img position-absolute text-center"></div>
+            </div>
+        </section>
+        <!-- CONTACT section ends -->
+
+        <!-- FOOTER starts -->
+        <footer class="text-center py-5">
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </footer>
+        <!-- FOOTER ends -->
+
+    </body>
+</html>
