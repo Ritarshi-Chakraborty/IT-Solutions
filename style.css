@@ -102,7 +102,7 @@ nav ul li a:hover
     position: absolute;
     height: 300px;
     width: 400px;
-    background: url('assets/u_150.png') center center;
+    background: url('./assets/u_150.png') center center;
     bottom: 0;
     right: -24rem;
 }
@@ -131,7 +131,7 @@ nav ul li a:hover
 .home-img {
     min-width: 40%;
     min-height: 550px;
-    background: url('assets/as.jpg') center center;
+    background: url('./assets/as.jpg') center center;
     background-size: cover;
 }
 
@@ -150,7 +150,7 @@ nav ul li a:hover
     width: 45%;
     top: 58%;
     height: 200px;
-    background: url('assets/u_150.png') center center;
+    background: url('./assets/u_150.png') center center;
 }
 
 #services-section::after {
@@ -168,7 +168,7 @@ nav ul li a:hover
 .service-img {
     max-width: 60%;
     min-height: 500px;
-    background: url('assets/wf.jpg') center center;
+    background: url('./assets/wf.jpg') center center;
     background-size: cover;
 }
 
@@ -203,7 +203,7 @@ nav ul li a:hover
     right: 0;
     min-width: 50%;
     min-height: 450px;
-    background: url('assets/-min-16.jpg') center center;
+    background: url('./assets/-min-16.jpg') center center;
     background-size: cover;
 }
 
@@ -212,7 +212,7 @@ nav ul li a:hover
     position: absolute;
     height: 200px;
     width: 200px;
-    background: url('assets/u_150.png') center center;
+    background: url('./assets/u_150.png') center center;
     left: 50%;
     transform: translate(-50%);
 }
@@ -287,7 +287,7 @@ nav ul li a:hover
     width: 250px;
     right: 0;
     bottom: 4rem;
-    background: url('assets/u_150.png');
+    background: url('./assets/u_150.png');
 }
 
 #portfolio .card-section {
@@ -300,32 +300,32 @@ nav ul li a:hover
 }
 
 #portfolio .card-section>div:nth-child(1) {
-    background: url('assets/3d-chrome-front-logo-mockup-modern-facade-sign_145275-181.jpg') center center;
+    background: url('./assets/3d-chrome-front-logo-mockup-modern-facade-sign_145275-181.jpg') center center;
     background-size: cover;
 }
 
 #portfolio .card-section>div:nth-child(2) {
-    background: url('assets/notebooks-mockup-with-black-element-black-background_24972-1.jpg') center center;
+    background: url('./assets/notebooks-mockup-with-black-element-black-background_24972-1.jpg') center center;
     background-size: cover;
 }
 
 #portfolio .card-section>div:nth-child(3) {
-    background: url('assets/logo-mockup-close-up-white-paper_145275-125.jpg') center center;
+    background: url('./assets/logo-mockup-close-up-white-paper_145275-125.jpg') center center;
     background-size: cover;
 }
 
 #portfolio .card-section>div:nth-child(4) {
-    background: url('assets/3d-white-logo-mockup-black-facade-sign_145275-184.jpg') center center;
+    background: url('./assets/3d-white-logo-mockup-black-facade-sign_145275-184.jpg') center center;
     background-size: cover;
 }
 
 #portfolio .card-section>div:nth-child(5) {
-    background: url('assets/logo-mockup-modern-black-hang-sign_145275-221.jpg') center center;
+    background: url('./assets/logo-mockup-modern-black-hang-sign_145275-221.jpg') center center;
     background-size: cover;
 }
 
 #portfolio .card-section>div:nth-child(6) {
-    background: url('assets/outdoor-panel-mock-up_1389-60.jpg') center center;
+    background: url('./assets/outdoor-panel-mock-up_1389-60.jpg') center center;
     background-size: cover;
 }
 
@@ -362,7 +362,7 @@ nav ul li a:hover
 .stats-img {
     min-width: 48%;
     min-height: 400px;
-    background: url('assets/657.jpg') center center;
+    background: url('./assets/657.jpg') center center;
     background-size: cover;
 }
 
@@ -437,7 +437,7 @@ form button:hover {
 .contact-img {
     min-width: 38%;
     min-height: 550px;
-    background: url('assets/rgerg.jpg') center center;
+    background: url('./assets/rgerg.jpg') center center;
     background-size: cover;
     left: 50%;
     top: 50%;
